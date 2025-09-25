@@ -1,7 +1,7 @@
 {
-  "name": "basics_of_backend_programming",
+  "name": "basics_of_apis_and_databases",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
@@ -11,7 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
